@@ -1,0 +1,20 @@
+.navbar{
+  opacity: 0.9;
+}
+
+.panel-footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-left: 10%;
+  padding-bottom: 2%;
+  opacity: 0.9;
+}
+
+.booking-input{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: forestgreen;
+}
+

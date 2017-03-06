@@ -1,0 +1,41 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" [routerLink]="['']">VILLA FELIS</a>
+    </div>
+    <div align="right" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class=""><a [routerLink]="['over']">over</a></li>
+        <li class=""><a [routerLink]="['album']">Foto</a></li>
+        <li class=""><a [routerLink]="['references']">Referenties</a></li>
+        <li class=""><a [routerLink]="['contact']">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="panel-footer">
+  <div class="row">
+    <form class="book-form">
+      <div class="col-md-2">
+        <p>Aankomst</p>
+        <input class="booking-input" type="date">
+      </div>
+      <div class="col-md-2">
+        <p>Vertrek</p>
+        <input class="booking-input" type="date">
+      </div>
+      <div class="col-md-2">
+        <P>Gasten (>4jr)</P>
+        <input class="booking-input" type="number">
+      </div>
+      <div class="col-md-2">
+        <P>Gasten (<=4jr)</P>
+        <input class="booking-input" type="number">
+      </div>
+      <div class="col-md-2">
+        <a href="#" class="btn btn-success btn-lg btn-block">Boek nu</a>
+      </div>
+    </form>
+  </div>
+</div>
