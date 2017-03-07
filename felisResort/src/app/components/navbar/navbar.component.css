@@ -1,6 +1,7 @@
 .navbar{
   border-radius: 0;
   box-shadow: 0 2px 5px #888888;
+  margin-bottom: 0;
 }
 .navbar-default .navbar-brand{
   color: #009688;

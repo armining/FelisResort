@@ -9,6 +9,7 @@ import { AlbumComponent } from './components/album/album.component';
 import { ReferencesComponent } from './components/references/references.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { OverComponent } from './components/over/over.component';
+import { HomeComponent } from './components/home/home.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { OverComponent } from './components/over/over.component';
     AlbumComponent,
     ReferencesComponent,
     ContactComponent,
-    OverComponent
+    OverComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
