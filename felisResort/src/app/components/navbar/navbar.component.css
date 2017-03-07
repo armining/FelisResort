@@ -1,14 +1,31 @@
 .navbar{
-  opacity: 0.9;
+  border-radius: 0;
+  box-shadow: 0 2px 5px #888888;
+}
+.navbar-default .navbar-brand{
+  color: #009688;
+}
+.navbar-nav>li>a{
+  color: #009688;
 }
 
+.navbar-default{
+  border-color: white;
+}
+
+.logo{
+  border: 2px solid;
+}
+
+.logo p {
+  margin: 0 5px;
+}
 .panel-footer{
   position: fixed;
   bottom: 0;
   width: 100%;
   padding-left: 10%;
   padding-bottom: 2%;
-  opacity: 0.9;
 }
 
 .booking-input{
