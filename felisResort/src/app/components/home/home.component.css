@@ -8,11 +8,29 @@
 }
 
 .center{
-  min-width: 100vw;
-  vertical-align: middle;
+  position: relative;
+}
+.center img {
+  height: 300px;
+  width: 550px;
 }
 
 .large-text{
-  display: block;
-  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 110px 0  0 -275px;
+}
+
+@media screen and (max-width: 990px) {
+  .center img {
+    height: 200px;
+    width: 450px;
+  }
+  .large-text{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin: 20px 0  0 -205px;
+  }
 }
